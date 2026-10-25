@@ -1,0 +1,81 @@
+/* RAZANE — The Purple Edition. Raw palette + semantic tokens for both editions. */
+
+:root {
+  --plum-950: #1a0a2e;
+  --plum-800: #2d1b69;
+  --violet-600: #7c3aed;
+  --violet-500: #a855f7;
+  --lilac-400: #c084fc;
+  --orchid-400: #e879f9;
+  --orchid-200: #f0abfc;
+  --candy-400: #ff6eb4; /* decorative only, never text */
+  --paper-50: #f7f1ff;
+  --paper-100: #ede3ff;
+  --card-yellow: #facc15;
+  --card-red: #ef4444;
+
+  --holo: linear-gradient(115deg, #7c3aed 0%, #c084fc 28%, #ff6eb4 52%, #f0abfc 74%, #7c3aed 100%);
+  --holo-light: linear-gradient(115deg, #c084fc 0%, #f0abfc 35%, #ff9fcf 60%, #e9d5ff 85%, #c084fc 100%);
+
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-1: 200ms;
+  --dur-2: 380ms;
+  --dur-3: 600ms;
+
+  --radius: 18px;
+  --gutter: clamp(16px, 4vw, 56px);
+  --ribbon: 0px;
+}
+
+/* Day Edition (default) */
+:root,
+[data-theme="day"] {
+  --bg: var(--paper-50);
+  --bg-2: var(--paper-100);
+  --surface: #fffaff;
+  --ink: var(--plum-950);
+  --ink-2: #4a3970;
+  --accent: var(--violet-600);
+  --accent-ink: #ffffff;
+  --accent-strong: #6d28d9;
+  --rule: rgb(26 10 46 / 0.16);
+  --rule-strong: rgb(26 10 46 / 0.55);
+  --masthead: linear-gradient(115deg, #2d1b69 0%, #7c3aed 30%, #c026d3 55%, #ff6eb4 72%, #7c3aed 100%);
+  --shadow: 0 1px 0 rgb(26 10 46 / 0.06), 0 12px 32px -12px rgb(45 27 105 / 0.28);
+  --hard-shadow: 4px 4px 0 var(--plum-950);
+  color-scheme: light;
+}
+
+/* Night Edition */
+[data-theme="night"] {
+  --bg: var(--plum-950);
+  --bg-2: #241450;
+  --surface: var(--plum-800);
+  --ink: var(--paper-50);
+  --ink-2: #cdbff2;
+  --accent: var(--lilac-400);
+  --accent-ink: var(--plum-950);
+  --accent-strong: var(--orchid-200);
+  --rule: rgb(240 171 252 / 0.2);
+  --rule-strong: rgb(240 171 252 / 0.6);
+  --masthead: var(--holo);
+  --shadow: 0 1px 0 rgb(0 0 0 / 0.2), 0 16px 40px -12px rgb(0 0 0 / 0.6);
+  --hard-shadow: 4px 4px 0 var(--orchid-400);
+  color-scheme: dark;
+}
+
+/* Source Mode: an IDE-dark view, whatever the edition */
+html[data-source="on"] {
+  --bg: #120822;
+  --bg-2: #120822;
+  --surface: #1f1038;
+  --ink: #efe6ff;
+  --ink-2: #cdbff2;
+  --accent: #f0abfc;
+  --accent-ink: #1a0a2e;
+  --accent-strong: #ffffff;
+  --rule: rgb(240 171 252 / 0.2);
+  --rule-strong: rgb(240 171 252 / 0.5);
+  --hard-shadow: 4px 4px 0 var(--orchid-400);
+  color-scheme: dark;
+}

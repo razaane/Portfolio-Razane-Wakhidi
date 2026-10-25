@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.DS_Store
+.lighthouseci
+
+# Private brief (mentions secrets in other repos) — keep out of the public repo
+*.pdf
+!public/**/*.pdf

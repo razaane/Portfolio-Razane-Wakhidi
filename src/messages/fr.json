@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Razane Wakhidi — Développeuse Full-Stack JavaScript",
+    "description": "Portfolio de Razane Wakhidi, développeuse full-stack JavaScript et étudiante en data science à Safi, Maroc. React, Next.js, Node.js, MongoDB, Docker."
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "contents": "Sommaire",
+    "openContents": "Ouvrir le sommaire",
+    "close": "Fermer",
+    "page": "p.",
+    "keyboard": "Touches : ← → sections · M sommaire · S mode Source",
+    "edition": { "day": "Édition Jour", "night": "Édition Nuit", "switchTo": "Passer à l'{edition}" },
+    "language": "Read in English",
+    "languageShort": "EN",
+    "sound": { "on": "Son activé", "off": "Son coupé" },
+    "source": "Mode Source",
+    "sourceHint": "Retourner la page pour voir le code",
+    "cover": "Couverture"
+  },
+  "sections": {
+    "cover": { "name": "Couverture", "label": "Introduction" },
+    "letter": { "name": "L'Édito", "label": "À propos" },
+    "stories": { "name": "Grands Reportages", "label": "Projets" },
+    "index": { "name": "L'Index", "label": "Compétences" },
+    "issues": { "name": "Anciens Numéros", "label": "Parcours" },
+    "lab": { "name": "Le Labo", "label": "Data science & bac à sable" },
+    "offclock": { "name": "Hors Service", "label": "Personnel" },
+    "classifieds": { "name": "Petites Annonces", "label": "Contact" },
+    "colophon": { "name": "Colophon", "label": "Pied de page" }
+  },
+  "cover": {
+    "readIssue": "Lire le numéro",
+    "downloadCv": "Télécharger le CV",
+    "tilt": "Incliner la couverture",
+    "coverLines": "Dans ce numéro",
+    "stickers": {
+      "title": "Planche de stickers",
+      "hint": "Décollez un sticker et posez-le où vous voulez. Il restera à votre prochaine visite.",
+      "place": "Poser un sticker",
+      "tidy": "Ranger",
+      "usedIn": "Utilisé dans",
+      "notUsed": "Fait partie de la marque",
+      "placed": "Sticker {name} posé sur la page"
+    }
+  },
+  "letter": {
+    "kicker": "Le mot de la rédactrice",
+    "signed": "Razane",
+    "facts": "En bref",
+    "education": "Formation",
+    "languages": "Langues",
+    "portraitAlt": "Portrait de Razane Wakhidi",
+    "portraitSoon": "Portrait à venir"
+  },
+  "stories": {
+    "intro": "Six projets, chacun avec son problème, mon rôle, la stack et le résultat. Ouvrez-en un pour lire l'histoire complète.",
+    "filter": "Filtrer les projets",
+    "all": "Tous",
+    "fullstack": "Full-stack",
+    "api": "API",
+    "frontend": "Front-end",
+    "data": "Data",
+    "readStory": "Lire l'histoire",
+    "role": "Rôle",
+    "team": "Équipe",
+    "solo": "Solo",
+    "people": "{count} personnes",
+    "more": "Encore dans les archives",
+    "count": "{count, plural, one {# reportage} other {# reportages}}"
+  },
+  "index": {
+    "intro": "Tout ce avec quoi je travaille, indexé comme à la fin d'un magazine. Chaque entrée renvoie aux projets où je l'ai utilisé.",
+    "coursework": "en formation",
+    "seeAlso": "voir"
+  },
+  "issues": {
+    "intro": "Douze mois, cinq numéros. Chacun est une marche de plus.",
+    "issue": "Numéro",
+    "repos": "Dans ce numéro"
+  },
+  "lab": {
+    "cleanTitle": "Le labo du nettoyage de données",
+    "raw": "Données brutes",
+    "removeSmall": "Retirer les dépenses sous {min} €",
+    "removeDupes": "Retirer les doublons",
+    "rows": "Lignes",
+    "mean": "Dépense moyenne",
+    "median": "Dépense médiane",
+    "total": "Total",
+    "chartTitle": "Dépenses totales par pays (€)",
+    "chartLoading": "Chargement du graphique…",
+    "tableCaption": "Dépenses totales par pays",
+    "country": "Pays",
+    "playground": "Bac à sable",
+    "bounceHint": "Cliquez ou appuyez sur Entrée pour lancer une balle",
+    "bounceLabel": "Jeu Bouncing Ball. Appuyez sur Entrée pour lancer une balle.",
+    "soon": "Bientôt"
+  },
+  "classifieds": {
+    "kicker": "Demande d'emploi",
+    "scratchTitle": "Grattez pour voir quand je suis libre",
+    "scratchLabel": "Carte à gratter. Utilisez le bouton Révéler pour voir mes disponibilités.",
+    "reveal": "Révéler",
+    "letsTalk": "Parlons-en",
+    "form": {
+      "title": "Répondre à l'annonce",
+      "name": "Votre nom",
+      "email": "Votre e-mail",
+      "message": "Votre message",
+      "send": "Publier ma réponse",
+      "sending": "Envoi…",
+      "success": "Votre annonce est publiée !",
+      "successBody": "Merci. Je réponds sous deux jours.",
+      "error": "Le message n'a pas pu être envoyé.",
+      "errorBody": "Écrivez-moi directement :",
+      "invalid": "Merci de vérifier les champs en surbrillance."
+    },
+    "copyEmail": "Copier l'e-mail",
+    "copied": "Copié !",
+    "availability": "Disponibilité",
+    "links": "Me trouver"
+  },
+  "colophon": {
+    "designed": "Conçu et développé par Razane à Safi. Composé en Fraunces et DM Sans.",
+    "stack": "Réalisé avec Next.js, TypeScript, Tailwind CSS, Chart.js et Shiki. Hébergé sur Vercel.",
+    "updated": "Dernière mise à jour",
+    "back": "Retour à la couverture",
+    "repo": "Code source sur GitHub"
+  },
+  "story": {
+    "back": "Retour au numéro",
+    "year": "Année",
+    "role": "Rôle",
+    "team": "Équipe",
+    "stack": "Stack",
+    "github": "Code sur GitHub",
+    "live": "Démo en ligne",
+    "docs": "Docs de l'API",
+    "figma": "Figma",
+    "tldr": "En bref",
+    "problem": "Le problème",
+    "built": "Ce que j'ai construit",
+    "how": "Comment ça marche",
+    "hardest": "Le plus difficile",
+    "results": "Les résultats en chiffres",
+    "learned": "Ce que j'ai appris",
+    "next": "Reportage suivant",
+    "tour": {
+      "title": "Visite d'une requête",
+      "hint": "Envoyez une requête et suivez-la à travers chaque couche.",
+      "send": "Envoyer",
+      "response": "Réponse",
+      "idle": "Choisissez une requête ci-dessus."
+    }
+  },
+  "source": {
+    "title": "Mode Source",
+    "file": "Rendu depuis",
+    "back": "Revenir au magazine",
+    "on": "Mode Source activé. Chaque section montre les données qui l'affichent.",
+    "off": "Retour au magazine."
+  },
+  "notFound": {
+    "title": "Carton rouge !",
+    "body": "Cette page est hors du terrain.",
+    "back": "Retour à la couverture",
+    "flip": "Retourner le carton"
+  }
+}

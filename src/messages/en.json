@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Razane Wakhidi — Full-Stack JavaScript Developer",
+    "description": "Portfolio of Razane Wakhidi, full-stack JavaScript developer and data science student from Safi, Morocco. React, Next.js, Node.js, MongoDB, Docker."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "contents": "Contents",
+    "openContents": "Open the table of contents",
+    "close": "Close",
+    "page": "p.",
+    "keyboard": "Keys: ← → sections · M contents · S Source Mode",
+    "edition": { "day": "Day Edition", "night": "Night Edition", "switchTo": "Switch to the {edition}" },
+    "language": "Lire en français",
+    "languageShort": "FR",
+    "sound": { "on": "Sound on", "off": "Sound off" },
+    "source": "Source Mode",
+    "sourceHint": "Flip to the code behind this page",
+    "cover": "Cover"
+  },
+  "sections": {
+    "cover": { "name": "Cover", "label": "Introduction" },
+    "letter": { "name": "Editor's Letter", "label": "About" },
+    "stories": { "name": "Feature Stories", "label": "Projects" },
+    "index": { "name": "The Index", "label": "Skills" },
+    "issues": { "name": "Back Issues", "label": "Growth timeline" },
+    "lab": { "name": "The Lab", "label": "Data science & playground" },
+    "offclock": { "name": "Off the Clock", "label": "Personal" },
+    "classifieds": { "name": "Classifieds", "label": "Contact" },
+    "colophon": { "name": "Colophon", "label": "Footer" }
+  },
+  "cover": {
+    "readIssue": "Read the issue",
+    "downloadCv": "Download CV",
+    "tilt": "Tilt the cover",
+    "coverLines": "In this issue",
+    "stickers": {
+      "title": "Sticker sheet",
+      "hint": "Peel a sticker and drop it anywhere. It stays for your next visit.",
+      "place": "Place a sticker",
+      "tidy": "Tidy up",
+      "usedIn": "Used in",
+      "notUsed": "Part of the brand",
+      "placed": "{name} sticker placed on the page"
+    }
+  },
+  "letter": {
+    "kicker": "From the editor",
+    "signed": "Razane",
+    "facts": "Quick facts",
+    "education": "Education",
+    "languages": "Languages",
+    "portraitAlt": "Portrait of Razane Wakhidi",
+    "portraitSoon": "Portrait coming soon"
+  },
+  "stories": {
+    "intro": "Six projects, each with its problem, my role, the stack and the result. Open one to read the full story.",
+    "filter": "Filter projects",
+    "all": "All",
+    "fullstack": "Full-stack",
+    "api": "API",
+    "frontend": "Front-end",
+    "data": "Data",
+    "readStory": "Read the story",
+    "role": "Role",
+    "team": "Team",
+    "solo": "Solo",
+    "people": "{count} people",
+    "more": "More from the archive",
+    "count": "{count, plural, one {# story} other {# stories}}"
+  },
+  "index": {
+    "intro": "Everything I work with, indexed like the back of a magazine. Each entry points to the stories where I used it.",
+    "coursework": "coursework",
+    "seeAlso": "see"
+  },
+  "issues": {
+    "intro": "Twelve months, five issues. Each one is a step up.",
+    "issue": "Issue",
+    "repos": "In this issue"
+  },
+  "lab": {
+    "cleanTitle": "Clean-the-data lab",
+    "raw": "Raw data",
+    "removeSmall": "Remove spends under {min} €",
+    "removeDupes": "Remove duplicates",
+    "rows": "Rows",
+    "mean": "Mean spend",
+    "median": "Median spend",
+    "total": "Total",
+    "chartTitle": "Total spend by country (€)",
+    "chartLoading": "Loading the chart…",
+    "tableCaption": "Total spend by country",
+    "country": "Country",
+    "playground": "Playground",
+    "bounceHint": "Click or press Enter to throw a ball",
+    "bounceLabel": "Bouncing Ball game. Press Enter to throw a ball.",
+    "soon": "Soon"
+  },
+  "classifieds": {
+    "kicker": "Position wanted",
+    "scratchTitle": "Scratch to see when I'm free",
+    "scratchLabel": "Scratch card. Use the Reveal button to see my availability.",
+    "reveal": "Reveal",
+    "letsTalk": "Let's talk",
+    "form": {
+      "title": "Reply to this ad",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "send": "Publish my reply",
+      "sending": "Sending…",
+      "success": "Your ad is published!",
+      "successBody": "Thank you. I'll answer within two days.",
+      "error": "The message could not be sent.",
+      "errorBody": "Please email me directly instead:",
+      "invalid": "Please check the highlighted fields."
+    },
+    "copyEmail": "Copy email",
+    "copied": "Copied!",
+    "availability": "Availability",
+    "links": "Find me"
+  },
+  "colophon": {
+    "designed": "Designed and built by Razane in Safi. Set in Fraunces and DM Sans.",
+    "stack": "Made with Next.js, TypeScript, Tailwind CSS, Chart.js and Shiki. Hosted on Vercel.",
+    "updated": "Last updated",
+    "back": "Back to the cover",
+    "repo": "Source on GitHub"
+  },
+  "story": {
+    "back": "Back to the issue",
+    "year": "Year",
+    "role": "Role",
+    "team": "Team",
+    "stack": "Stack",
+    "github": "Code on GitHub",
+    "live": "Live demo",
+    "docs": "API docs",
+    "figma": "Figma",
+    "tldr": "TL;DR",
+    "problem": "The problem",
+    "built": "What I built",
+    "how": "How it works",
+    "hardest": "The hardest part",
+    "results": "Results in numbers",
+    "learned": "What I learned",
+    "next": "Next story",
+    "tour": {
+      "title": "Request tour",
+      "hint": "Send a request and watch it travel through each layer.",
+      "send": "Send",
+      "response": "Response",
+      "idle": "Pick a request above."
+    }
+  },
+  "source": {
+    "title": "Source Mode",
+    "file": "Rendered from",
+    "back": "Flip back to the magazine",
+    "on": "Source Mode on. Each section now shows the data that renders it.",
+    "off": "Back to the magazine."
+  },
+  "notFound": {
+    "title": "Red card!",
+    "body": "This page is off the pitch.",
+    "back": "Back to the cover",
+    "flip": "Flip the card"
+  }
+}
